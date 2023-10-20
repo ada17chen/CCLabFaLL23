@@ -55,15 +55,17 @@ body{
     width: 90%;
     }
     #footer{
-    text-align:center;
+    text-align:left;
     font-size:9px;
+    
     }
     .one-column{
     text-align:center;
     }
     #p5-canvas {
     position: absolute;
-    left: 50px;
-    top: 100px;
+    left: 500px;
+    width: 10%;
+    top: -70px;
     }
     
