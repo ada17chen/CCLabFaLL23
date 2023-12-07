@@ -1,0 +1,134 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'sans-serif', sans-serif;
+    background-color: #f5f5f5;
+    background-image:url("All.png");
+    
+  }
+  
+  /* Header  */
+  header {
+    background-color: #ffcc00;
+    background-image: url("All.png");
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    font-size: 36px;
+    /* border-bottom; */
+  }
+    /* border-radius: 0 0 20px 20px; */
+  
+
+  main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(236, 197, 197, 0.1);
+  }
+  
+  
+  h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #060505;
+  }
+  
+ 
+  .room {
+    border: 2px solid #ffcc00;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 90px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 15px rgba(252, 222, 222, 0.1);
+  }
+  
+
+  canvas {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ffd2d2;
+    border-radius: 6px;
+  }
+  
+
+  #dog-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  #dog-images img {
+    width: 150px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 20%;
+    border: 4px solid #ffcc00;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  #dog-images img:hover {
+    transform: scale(1.1);
+  }
+
+  footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #ffcc00;
+    color: #eae3e3;
+    font-size: 14px;
+    border-top: 4px solid #e8e4e4;
+    border-radius: 20px 20px 0 0;
+  }
+ 
+
+
+.room {
+    display: flex;
+    border: 2px solid #fbf4f4;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden; 
+  }
+  
+  .room-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .room-content {
+    display: flex;
+  }
+  
+  .room-image {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .room-image img {
+    width: 100%; 
+    border-radius: 90px;
+  }
+  
+  .room-sketch {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  canvas {
+    display: block;
+    width: 100%;
+    border: 1px solid #f0d1d1;
+    border-radius: 6px;
+  }
+  
